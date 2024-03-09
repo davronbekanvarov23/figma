@@ -58,16 +58,57 @@
   display: flex;
   gap: 30px;
 }
-.card-x {position: relative;
+.card-x {
+  position: relative;
   background-color: var(--Sacramento-State-Green);
   width: 350px;
   padding-top: 34px;
-  padding-bottom: 35px;
+  padding-bottom: 63px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items:center;
-  p{width: 250px;
-text-align: center;}
+  align-items: center;
+  ul {
+    display: flex;
+    gap: 10px;
+  }
+  p {
+    width: 250px;
+    text-align: center;
+  }
+  .x {
+    width: 56px;
+    height: 56px;
+    position: absolute;
+    bottom: -28px;
+  }
+}
 
+.clients {
+  padding-top: 140px;
+  padding-bottom: 140px;
+  background-color: var(--Sacramento-State-Green);
+  h2 {
+    text-align: center;
+    margin-bottom: 64px;
+  }
+  .box {
+    display: flex;
+    gap: 80px;
+    img{}
+  }
+}
+
+.getStarted {
+  background-color: var(--Light-Coral);
+  padding-top: 76px;
+  padding-bottom: 76px;
+  display: flex;
+  justify-content: center;
+}
+
+.getStarted__content {
+  width: 917px;
+  display: flex;
+  justify-content: space-between;
 }
