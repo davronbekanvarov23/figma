@@ -94,4 +94,14 @@
   display: flex;
   justify-content: space-between;
 }
-
+.build-nav {
+}
+.build-nav__list {
+}
+.build-nav__item {
+  display: flex;
+  gap: 22px;
+  p {
+    opacity: 0.8;
+  }
+}
