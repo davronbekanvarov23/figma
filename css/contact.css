@@ -1,6 +1,17 @@
 .hero {
+  position: relative;
   background-color: var(--Midnight-Green);
   padding-bottom: 120px;
+  .right {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+  .left {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
 }
 
 .hero__content {

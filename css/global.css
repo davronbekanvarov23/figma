@@ -20,11 +20,8 @@
   box-sizing: border-box;
 }
 *:focus {
-  outline: 2px dotted var(--White);
+  outline: 2px dotted yellow;
   outline-offset: 4px;
-}
-#active {
-  text-decoration: underline;
 }
 
 a {
