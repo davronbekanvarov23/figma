@@ -1,0 +1,80 @@
+.hero {
+  background-color: var(--Midnight-Green);
+  padding-bottom: 120px;
+}
+
+.hero__content {
+  display: flex;
+  gap: 30px;
+}
+.card__left {
+}
+.title {
+  font-size: 64px;
+  margin-bottom: 16px;
+}
+.card__left__description {
+  h2 {
+    font-size: 32px;
+    line-height: 48px;
+    color: var(--Light-Coral);
+  }
+}
+.card__left-list {
+  display: flex;
+  flex-direction: column;
+
+  gap: 6px;
+  padding-left: 0;
+}
+.card__left-item {
+  display: flex;
+  align-items: center;
+  gap: 23px;
+  width: 540px;
+}
+.card__right {
+  width: 542px;
+}
+
+.btn-submit {
+  background-color: var(--White);
+  border-radius: 24px;
+  border: 0;
+  padding: 11px 32px;
+  color: var(--Deep-Jungle-Green);
+  font-weight: 600;
+}
+
+form {
+  width: 542px;
+}
+label {
+  display: block;
+  margin-bottom: 4px;
+}
+.form-control {
+  cursor: pointer;
+  margin-bottom: 25px;
+  &:hover ::placeholder {
+    color: var(--Light-Coral);
+  }
+
+  input {
+    margin-bottom: 15px;
+    width: 38rem;
+    border: 0;
+    opacity: 1;
+    color: var(--White);
+    background-color: transparent;
+    &::placeholder {
+      color: var(--White);
+      opacity: 0.6;
+    }
+  }
+}
+.Message-control {
+  input {
+    height: 50px;
+  }
+}

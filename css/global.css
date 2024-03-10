@@ -23,6 +23,10 @@
   outline: 2px dotted var(--White);
   outline-offset: 4px;
 }
+#active {
+  text-decoration: underline;
+}
+
 a {
   text-decoration: none;
 }
